@@ -1,7 +1,7 @@
-import React, {Component} from "react";
+// import React, {Component} from "react";
 
-export default class inputDate extends Component{
-    inputRef=React.j
+// export default class inputDate extends Component{
+//     inputRef=React.j
 
     
-}
+// }
