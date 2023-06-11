@@ -7,9 +7,9 @@ import AppHw from './comps/appHw';
 function App() {
   return (
     <>
-    {/* <Exchange/>
-    <Counter/> */}
-    <AppHw/>
+    <Exchange/>
+    <Counter/>
+    {/* <AppHw/> */}
     </>
   );
 }
