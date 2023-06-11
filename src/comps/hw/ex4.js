@@ -21,7 +21,7 @@ this.setState({picture:value});
                 <option value={this.watches_ar[1]}>silver rolex</option>
                 <option value={this.watches_ar[2]}>rose fossil</option>
             </select>
-            <img src={"/img/"+this.watches_ar[this.state.picture]} alt="watch" className='col-md-4'/>
+            <img src={"/img/"+this.state.picture} alt="watch" className='col-md-4'/>
             </>
         )
     }
