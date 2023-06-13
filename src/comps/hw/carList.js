@@ -4,6 +4,8 @@ import CarItem from './carItem';
 
 export default class CarsList extends Component {
   state = { ar: [] }
+  // זה בעצם סוג של 
+  //  useEffect()
   componentDidMount() {
     this.doApi();
   }
@@ -12,7 +14,7 @@ export default class CarsList extends Component {
     let url = "https://project-yarin.herokuapp.com/cars?perPage=10";
     let resp = await axios.get(url);
     console.log(resp.data);
-    this.setState({ ar: resp.data });
+    this.setState({ ar: resp.data});
   }
 
   render() {
@@ -24,6 +26,8 @@ export default class CarsList extends Component {
         <div className="row g-3">
           {this.state.ar.map(item => {
             return (
+              // item שולחים את ה
+              // 2 the class(carItem) like we did on js
               <CarItem key={item._id} item={item} />
             )
           })}

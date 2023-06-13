@@ -8,8 +8,8 @@ export default function SelectComp() {
 
   return (
     <div className='container'>
-      <h2  style={{color:color}}>Choose your favorite color:</h2>
-      <select defaultValue="gold" ref={selectRef}  onChange={() => {
+      <h2 style={{color:color}}>Choose your favorite color:</h2>
+      <select defaultValue="gold" ref={selectRef} onChange={() => {
         setColor(selectRef.current.value)
       }} className='form-select'>
         <option value="">Select your favorite color</option>
