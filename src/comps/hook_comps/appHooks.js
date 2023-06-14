@@ -1,3 +1,7 @@
+import React from 'react'
+
+import Counter from "./counter";
+
 export default function AppHooks(){
     return(
         <React.Fragment>
@@ -6,8 +10,8 @@ export default function AppHooks(){
 {/* <AppDate /> */}
 <hr/>
 {/* <Toggle /> */}
-<hr/>
-<Counter />
+{/* <hr/> */}
+<Counter/>
         </React.Fragment>
     )
 }

@@ -7,10 +7,10 @@ import AppTv from './comps/api_comps/appTv';
 function App() {
   return (
     <div className="App">
-{/* <AppHw/> */}
+<AppHw/>
 {/* <AppHooks/> */}
 
-<AppTv/>
+{/* <AppTv/> */}
     </div>
   );
 }

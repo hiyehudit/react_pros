@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 export default function TvItem(props) {
-    const [showInfo, setShowItem]=useState(false);
+    const [showInfo, setShowInfo]=useState(false);
     let item=props.item;
   return (
     <div className='col-md-4'>
