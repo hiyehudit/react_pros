@@ -6,11 +6,11 @@ import AppHw from './comps/appHw';
 
 function App() {
   return (
-    <>
+    <React.Fragment>
     <Exchange/>
     <Counter/>
     {/* <AppHw/> */}
-    </>
+    </React.Fragment>
   );
 }
 
