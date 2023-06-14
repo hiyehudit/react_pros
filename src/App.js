@@ -3,15 +3,16 @@ import './App.css';
 import AppHw from './comps/appHw';
 import AppHooks from './comps/hook_comps/appHooks';
 import AppTv from './comps/api_comps/appTv';
+import React from 'react';
 
 function App() {
   return (
-    <div className="App">
+   <React.Fragment>
 <AppHw/>
 {/* <AppHooks/> */}
 
 {/* <AppTv/> */}
-    </div>
+</React.Fragment>
   );
 }
 
