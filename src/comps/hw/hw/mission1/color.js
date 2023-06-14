@@ -6,7 +6,7 @@ export default function Color(props) {
     return (
         <div>
             <button onClick={() => {
-                this.props.changeFontColor("blue")
+                props.changeFontColor("blue")
             }}>Blue</button>
         </div>
     )
