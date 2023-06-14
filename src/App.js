@@ -1,13 +1,13 @@
 import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import AppHw from './comps_hw/appHw';
 
 function App() {
   return (
-    <div className="App">
+    <React.Fragment>
 <AppHw/>
-
-    </div>
+</React.Fragment>
   );
 }
 
