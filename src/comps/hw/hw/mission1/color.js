@@ -1,6 +1,5 @@
 import React from 'react'
 import App from './app'
-import { render } from '@testing-library/react'
 
 export default function Color(props) {
     return (
@@ -8,6 +7,12 @@ export default function Color(props) {
             <button onClick={() => {
                 props.changeFontColor("blue")
             }}>Blue</button>
+            <button onClick={() => {
+                props.changeFontColor("red")
+            }}>Red</button>
+            <button onClick={() => {
+                props.changeFontColor("yellow")
+            }}>Yellow</button>
         </div>
     )
 }

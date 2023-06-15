@@ -8,6 +8,7 @@ import React, { Component } from 'react'
 
 // import ParentComp from './parentComp'
 import App from './hw/hw/mission1/app';
+import AppCazino from './hw/hw/mission3/appCazino';
 
 export default class AppHw extends Component {
  render() {
@@ -15,7 +16,12 @@ export default class AppHw extends Component {
    <React.Fragment>
     {/* <hr/> */}
     {/* <CarsList /> */}
-    <App/>
+
+    {/* mission1: */}
+    {/* <App/> */}
+
+    {/* mission2 */}
+    <AppCazino/>
     <hr/>
     {/* <ParentComp /> */}
     {/* <ParentComp/> */}
